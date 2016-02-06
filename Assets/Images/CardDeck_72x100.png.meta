@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 8e08201cec45666458ce8302959c3f09
-timeCreated: 1429064644
+timeCreated: 1454798543
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -122,14 +122,14 @@ TextureImporter:
         y: 400
         width: 72
         height: 100
-      alignment: 1
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_1
       rect:
         serializedVersion: 2
@@ -137,14 +137,14 @@ TextureImporter:
         y: 400
         width: 72
         height: 100
-      alignment: 1
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_2
       rect:
         serializedVersion: 2
@@ -152,14 +152,14 @@ TextureImporter:
         y: 400
         width: 72
         height: 100
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_3
       rect:
         serializedVersion: 2
@@ -167,14 +167,14 @@ TextureImporter:
         y: 400
         width: 72
         height: 100
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_4
       rect:
         serializedVersion: 2
@@ -182,14 +182,14 @@ TextureImporter:
         y: 400
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_5
       rect:
         serializedVersion: 2
@@ -197,14 +197,14 @@ TextureImporter:
         y: 400
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_6
       rect:
         serializedVersion: 2
@@ -212,14 +212,14 @@ TextureImporter:
         y: 400
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_7
       rect:
         serializedVersion: 2
@@ -227,14 +227,14 @@ TextureImporter:
         y: 400
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_8
       rect:
         serializedVersion: 2
@@ -242,14 +242,14 @@ TextureImporter:
         y: 400
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_9
       rect:
         serializedVersion: 2
@@ -257,14 +257,14 @@ TextureImporter:
         y: 400
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_10
       rect:
         serializedVersion: 2
@@ -272,14 +272,14 @@ TextureImporter:
         y: 400
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_11
       rect:
         serializedVersion: 2
@@ -287,14 +287,14 @@ TextureImporter:
         y: 400
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_12
       rect:
         serializedVersion: 2
@@ -302,14 +302,14 @@ TextureImporter:
         y: 400
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_13
       rect:
         serializedVersion: 2
@@ -317,14 +317,14 @@ TextureImporter:
         y: 300
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_14
       rect:
         serializedVersion: 2
@@ -332,14 +332,14 @@ TextureImporter:
         y: 300
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_15
       rect:
         serializedVersion: 2
@@ -347,14 +347,14 @@ TextureImporter:
         y: 300
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_16
       rect:
         serializedVersion: 2
@@ -362,14 +362,14 @@ TextureImporter:
         y: 300
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_17
       rect:
         serializedVersion: 2
@@ -377,14 +377,14 @@ TextureImporter:
         y: 300
         width: 72
         height: 100
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_18
       rect:
         serializedVersion: 2
@@ -392,14 +392,14 @@ TextureImporter:
         y: 300
         width: 72
         height: 100
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_19
       rect:
         serializedVersion: 2
@@ -407,14 +407,14 @@ TextureImporter:
         y: 300
         width: 72
         height: 100
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_20
       rect:
         serializedVersion: 2
@@ -422,14 +422,14 @@ TextureImporter:
         y: 300
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_21
       rect:
         serializedVersion: 2
@@ -437,14 +437,14 @@ TextureImporter:
         y: 300
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_22
       rect:
         serializedVersion: 2
@@ -452,14 +452,14 @@ TextureImporter:
         y: 300
         width: 72
         height: 100
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_23
       rect:
         serializedVersion: 2
@@ -467,14 +467,14 @@ TextureImporter:
         y: 300
         width: 72
         height: 100
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_24
       rect:
         serializedVersion: 2
@@ -482,14 +482,14 @@ TextureImporter:
         y: 300
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_25
       rect:
         serializedVersion: 2
@@ -497,14 +497,14 @@ TextureImporter:
         y: 300
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_26
       rect:
         serializedVersion: 2
@@ -512,14 +512,14 @@ TextureImporter:
         y: 200
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_27
       rect:
         serializedVersion: 2
@@ -527,14 +527,14 @@ TextureImporter:
         y: 200
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_28
       rect:
         serializedVersion: 2
@@ -542,14 +542,14 @@ TextureImporter:
         y: 200
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_29
       rect:
         serializedVersion: 2
@@ -557,14 +557,14 @@ TextureImporter:
         y: 200
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_30
       rect:
         serializedVersion: 2
@@ -572,14 +572,14 @@ TextureImporter:
         y: 200
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_31
       rect:
         serializedVersion: 2
@@ -587,14 +587,14 @@ TextureImporter:
         y: 200
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_32
       rect:
         serializedVersion: 2
@@ -602,14 +602,14 @@ TextureImporter:
         y: 200
         width: 72
         height: 100
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_33
       rect:
         serializedVersion: 2
@@ -617,14 +617,14 @@ TextureImporter:
         y: 200
         width: 72
         height: 100
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_34
       rect:
         serializedVersion: 2
@@ -632,14 +632,14 @@ TextureImporter:
         y: 200
         width: 72
         height: 100
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_35
       rect:
         serializedVersion: 2
@@ -647,14 +647,14 @@ TextureImporter:
         y: 200
         width: 72
         height: 100
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_36
       rect:
         serializedVersion: 2
@@ -662,14 +662,14 @@ TextureImporter:
         y: 200
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_37
       rect:
         serializedVersion: 2
@@ -677,14 +677,14 @@ TextureImporter:
         y: 200
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_38
       rect:
         serializedVersion: 2
@@ -692,14 +692,14 @@ TextureImporter:
         y: 200
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_39
       rect:
         serializedVersion: 2
@@ -707,14 +707,14 @@ TextureImporter:
         y: 100
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_40
       rect:
         serializedVersion: 2
@@ -722,14 +722,14 @@ TextureImporter:
         y: 100
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_41
       rect:
         serializedVersion: 2
@@ -737,14 +737,14 @@ TextureImporter:
         y: 100
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_42
       rect:
         serializedVersion: 2
@@ -752,14 +752,14 @@ TextureImporter:
         y: 100
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_43
       rect:
         serializedVersion: 2
@@ -767,14 +767,14 @@ TextureImporter:
         y: 100
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_44
       rect:
         serializedVersion: 2
@@ -782,14 +782,14 @@ TextureImporter:
         y: 100
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_45
       rect:
         serializedVersion: 2
@@ -797,14 +797,14 @@ TextureImporter:
         y: 100
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_46
       rect:
         serializedVersion: 2
@@ -812,14 +812,14 @@ TextureImporter:
         y: 100
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_47
       rect:
         serializedVersion: 2
@@ -827,14 +827,14 @@ TextureImporter:
         y: 100
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_48
       rect:
         serializedVersion: 2
@@ -842,14 +842,14 @@ TextureImporter:
         y: 100
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_49
       rect:
         serializedVersion: 2
@@ -857,14 +857,14 @@ TextureImporter:
         y: 100
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_50
       rect:
         serializedVersion: 2
@@ -872,14 +872,14 @@ TextureImporter:
         y: 100
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_51
       rect:
         serializedVersion: 2
@@ -887,14 +887,14 @@ TextureImporter:
         y: 100
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_52
       rect:
         serializedVersion: 2
@@ -902,14 +902,14 @@ TextureImporter:
         y: 0
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_53
       rect:
         serializedVersion: 2
@@ -917,14 +917,14 @@ TextureImporter:
         y: 0
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_54
       rect:
         serializedVersion: 2
@@ -932,14 +932,14 @@ TextureImporter:
         y: 0
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_55
       rect:
         serializedVersion: 2
@@ -947,14 +947,14 @@ TextureImporter:
         y: 0
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_56
       rect:
         serializedVersion: 2
@@ -962,14 +962,14 @@ TextureImporter:
         y: 0
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_57
       rect:
         serializedVersion: 2
@@ -977,14 +977,14 @@ TextureImporter:
         y: 0
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_58
       rect:
         serializedVersion: 2
@@ -992,14 +992,14 @@ TextureImporter:
         y: 0
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_59
       rect:
         serializedVersion: 2
@@ -1007,14 +1007,14 @@ TextureImporter:
         y: 0
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_60
       rect:
         serializedVersion: 2
@@ -1022,14 +1022,14 @@ TextureImporter:
         y: 0
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_61
       rect:
         serializedVersion: 2
@@ -1037,14 +1037,14 @@ TextureImporter:
         y: 0
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_62
       rect:
         serializedVersion: 2
@@ -1052,14 +1052,14 @@ TextureImporter:
         y: 0
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_63
       rect:
         serializedVersion: 2
@@ -1067,14 +1067,14 @@ TextureImporter:
         y: 0
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     - name: CardDeck_72x100_64
       rect:
         serializedVersion: 2
@@ -1082,14 +1082,14 @@ TextureImporter:
         y: 0
         width: 72
         height: 100
-      alignment: 1
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -100}
-        - {x: 72, y: -100}
-        - {x: 72, y: 0}
+      - - {x: -36, y: 50}
+        - {x: -36, y: -50}
+        - {x: 36, y: -50}
+        - {x: 36, y: 50}
     outline: []
   spritePackingTag: 
   userData: 
