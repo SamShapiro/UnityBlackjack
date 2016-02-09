@@ -48,6 +48,7 @@
      <Compile Include="Assets\Scripts\CardFlipper.cs" />
      <Compile Include="Assets\Scripts\CardModel.cs" />
      <Compile Include="Assets\Scripts\DebugChangeCard.cs" />
+     <Compile Include="Assets\Scripts\Deck.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
