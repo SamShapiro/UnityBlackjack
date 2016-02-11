@@ -10,7 +10,7 @@ public class DebugChangeCard : MonoBehaviour {
 	public GameObject card;
 
 
-	void Awake() 
+	void Start() 
 	{
 		cardModel = card.GetComponent<CardModel> ();
 		flipper = card.GetComponent<CardFlipper> ();
