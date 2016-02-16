@@ -6,19 +6,48 @@ public class CardStack : MonoBehaviour {
 
 	List<int> cards;
 
+	public bool isGameDeck;
+
+	public bool HasCards 
+	{
+		get { return cards != null && cards.Count > 0; }
+	}
+
+	public event CardRemovedEventHandler CardRemoved;
+
+	public int cardCount {
+		get {
+			if (cards == null)
+				return 0;
+			else
+				return cards.Count;
+		}
+	}
+
 	public IEnumerable<int> GetCards() {
 		foreach (int i in cards) {
 			yield return i;
 		}
 	}
 
+	public int Pop() {
+		int temp = cards [0];
+		cards.RemoveAt (0);
+
+		if (CardRemoved != null) {
+			CardRemoved (this, new CardRemovedEventArgs (temp));
+		}
+
+		return temp;
+	}
+
+	public void Push(int card){
+		cards.Add (card);
+	}
+
 	public void CreateDeck ()
 	{
-		if (cards == null) {
-			cards = new List<int> ();
-		} else {
-			cards.Clear ();
-		}
+		cards.Clear ();
 
 		for (int i = 0; i < 52; i++) {
 			cards.Add (i);
@@ -37,6 +66,9 @@ public class CardStack : MonoBehaviour {
 
 	void Awake () 
 	{
-		CreateDeck ();
+		cards = new List<int> ();
+		if (isGameDeck) {
+			CreateDeck ();
+		}
 	}
 }
