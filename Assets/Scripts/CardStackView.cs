@@ -14,6 +14,7 @@ public class CardStackView : MonoBehaviour
 	public float cardOffset;
 	public GameObject cardPrefab;
 	public bool faceUp = false;
+	public bool reverseLayerOrder = false;
 
 	void Start () {
 		fetchedCards = new Dictionary<int, GameObject> ();
@@ -67,8 +68,14 @@ public class CardStackView : MonoBehaviour
 		cardModel.ToggleFace (faceUp);
 
 		SpriteRenderer spriteRenderer = cardCopy.GetComponent<SpriteRenderer> ();
-		spriteRenderer.sortingOrder = positionalIndex;
+		if (reverseLayerOrder) {
+			spriteRenderer.sortingOrder = 51 - positionalIndex;
+		} else {
+			spriteRenderer.sortingOrder = positionalIndex;
+		}
 
 		fetchedCards.Add (cardIndex, cardCopy);
+
+		Debug.Log ("Hand Value = " + deck.HandValue ());
 	}
 }
