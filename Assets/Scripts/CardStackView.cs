@@ -7,7 +7,7 @@ using System.Collections.Generic;
 public class CardStackView : MonoBehaviour 
 {
 	CardStack deck;
-	Dictionary<int, GameObject> fetchedCards;
+	Dictionary<int, CardView> fetchedCards;
 	int lastCount;
 
 	public Vector3 start;
@@ -16,18 +16,34 @@ public class CardStackView : MonoBehaviour
 	public bool faceUp = false;
 	public bool reverseLayerOrder = false;
 
-	void Start () {
-		fetchedCards = new Dictionary<int, GameObject> ();
+
+	public void Toggle (int card, bool isFaceUp) {
+		fetchedCards [card].isFaceUp = isFaceUp;
+		ShowCards ();
+	}
+
+	void Awake () {
+		fetchedCards = new Dictionary<int, CardView> ();
 		deck = GetComponent<CardStack> ();
 		ShowCards ();
 		lastCount = deck.cardCount;
 
 		deck.CardRemoved += deck_CardRemoved;
+		deck.CardAdded += Deck_CardAdded;
 	}
 
-	void deck_CardRemoved (object sender, CardRemovedEventArgs e) {
+	void Deck_CardAdded (object sender, CardEventArgs e)
+	{
+		
+		float co = cardOffset * deck.cardCount;
+
+		Vector3 temp = start + new Vector3 (co, 0f);
+		AddCard (temp, e.CardIndex, deck.cardCount);
+	}
+
+	void deck_CardRemoved (object sender, CardEventArgs e) {
 		if (fetchedCards.ContainsKey (e.CardIndex)) {
-			Destroy (fetchedCards [e.CardIndex]);
+			Destroy (fetchedCards [e.CardIndex].Card);
 			fetchedCards.Remove (e.CardIndex);
 		}
 	}
@@ -37,7 +53,6 @@ public class CardStackView : MonoBehaviour
 			lastCount = deck.cardCount;
 			ShowCards ();
 		}
-		deck.CardRemoved += deck_CardRemoved;
 	}
 
 	void ShowCards () {
@@ -57,6 +72,11 @@ public class CardStackView : MonoBehaviour
 	void AddCard (Vector3 position, int cardIndex, int positionalIndex) {
 
 		if (fetchedCards.ContainsKey (cardIndex)) {
+			if (!faceUp) {
+				CardModel model = fetchedCards [cardIndex].Card.GetComponent<CardModel> ();
+				model.ToggleFace(fetchedCards[cardIndex].isFaceUp);
+			}
+
 			return;
 		}
 
@@ -74,8 +94,6 @@ public class CardStackView : MonoBehaviour
 			spriteRenderer.sortingOrder = positionalIndex;
 		}
 
-		fetchedCards.Add (cardIndex, cardCopy);
-
-		Debug.Log ("Hand Value = " + deck.HandValue ());
+		fetchedCards.Add (cardIndex, new CardView(cardCopy));
 	}
 }
