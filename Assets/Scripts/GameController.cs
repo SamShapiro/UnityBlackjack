@@ -44,6 +44,7 @@ public class GameController : MonoBehaviour {
 		winText.text = "";
 		hitButton.interactable = true;
 		standButton.interactable = true;
+		dealersFirstCard = -1;
 		StartGame ();
 	}
 
