@@ -84,7 +84,7 @@ public class GameController : MonoBehaviour {
 
 	IEnumerator DealersTurn() {
 		CardStackView view = dealer.GetComponent<CardStackView> ();
-		view.Toggle (dealersFirstCard, true);
+		view.Flip (dealersFirstCard);
 		yield return new WaitForSeconds (1f);
 
 		while (dealer.HandValue () < 17 && player.HandValue() <= 21) {

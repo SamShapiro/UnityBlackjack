@@ -18,8 +18,18 @@ public class CardStackView : MonoBehaviour
 
 
 	public void Toggle (int card, bool isFaceUp) {
+		//CardFlipper flipper = fetchedCards [card].Card.GetComponent<CardFlipper> ();
+		//CardModel model = fetchedCards [card].Card.GetComponent<CardModel> ();
+		//flipper.flipCard (model.cardBack, model.faces [card], card);
 		fetchedCards [card].isFaceUp = isFaceUp;
 		ShowCards ();
+	}
+
+	public void Flip (int card) {
+		CardFlipper flipper = fetchedCards [card].Card.GetComponent<CardFlipper> ();
+		CardModel model = fetchedCards [card].Card.GetComponent<CardModel> ();
+		flipper.flipCard (model.cardBack, model.faces [card], card);
+		fetchedCards [card].isFaceUp = true;
 	}
 
 	void Awake () {
